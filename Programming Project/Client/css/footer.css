@@ -1,0 +1,98 @@
+#footerContainer {
+    background-color: #f5f5f5;
+    color: black;
+    padding-top: 30px;
+    width: 100%;
+}
+footer{
+  bottom: 0;
+}
+#footerContainer .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#footerContainer .row {
+    margin-bottom: 60px;
+}
+
+#footerContainer .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#footerContainer .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#footerContainer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#footerContainer li {
+  display: block;
+}
+
+#footerContainer h5 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#footerContainer h2 a{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    color: #FF3A44;
+}
+#footerContainer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footerContainer a:hover,
+#footerContainer a:focus {
+    text-decoration: none;
+    color: #FF3A44;
+}
+
+#footerContainer .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#footerContainer .facebook {
+    padding: 10px;
+}
+
+#footerContainer .instagram {
+    padding: 10px;
+}
+
+#footerContainer .twitter {
+    padding: 10px;
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 100px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

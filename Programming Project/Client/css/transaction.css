@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+  height: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+body h1{
+  font-size: 300%;
+  font-family: 'Lobster', cursive;
+  color: #FF3A44;
+}
+body table{
+  text-align: center;
+  margin:auto;
+  font-family: 'Roboto', sans-serif;
+}
+body table tr{
+  margin: auto;
+}
+body table td{
+  padding: 5px 0px 5px 0px;
+}
+#months{
+  border: 2px solid #FF3A44;
+  border-radius: 5px;
+}
+.submitbtn{
+    width: 27%;
+    height: 40px;
+    background: #FF656D;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #FF656D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.submitbtn:hover{
+    background: #FF3A44;
+    border: 1px solid #FF3A44;
+}
+
+.inputText{
+    width: 500px;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 0 20px;
+    outline: none;
+}

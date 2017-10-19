@@ -1,0 +1,49 @@
+nav{
+    font-family: 'Quicksand', sans-serif;
+    background-color:  #FF3A44;
+    color: white;
+margin: 0;
+overflow: hidden;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+li {
+  display:table-cell;
+  vertical-align: middle;
+     text-decoration: none;
+  }
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav img{
+  width: auto;
+  height: 75px;
+  margin-left: 20%;
+}
+nav ul  li .link{
+  color: white;
+   display: block;
+   line-height: 3em;
+   padding: 0.5em 2em;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-size: 120%;
+   width: auto;
+}
+nav ul li:first-child{
+  margin-right: auto;
+}
+.img h3{
+  text-align: center;
+}
+nav h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #FF3A44;
+  font-size: 400%;
+}

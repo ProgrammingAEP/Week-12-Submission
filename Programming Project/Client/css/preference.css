@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+    margin: 0px;
+    background: #E9EBEEE;
+}
+body h1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #FF3A44;
+  font-size: 300%;
+
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+.preferences {
+    font-family:'Quicksand', sans-serif;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #ff656c;
+    margin:auto;
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+.preferences option {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ select{
+    width:70%;
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.buttonopen button{
+    text-align: center;
+    background: #FF656D;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #FF656D;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+
+}
+
+button:hover{
+    outline: none;
+    background: #FF3A44;
+    border: 1px solid #FF3A44;
+}
+
+
+.inputTextHeight{
+    width: 20%;
+}
+
+.nextbtn{
+    width: 70%;
+    height: 40px;
+    background: #FF656D;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #FF656D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.nextbtn:hover{
+    background: #FF3A44;
+    border: 1px solid #FF3A44;
+}
+
+.hobbies{
+    padding: 10px;
+    margin-right:  10px;
+
+}
+
+input[type=text]{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+input[type=number]{
+    width: 55%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.inner button{
+    background: #FF3A44;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #FF3A44;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.inner button:hover{
+    background: #FF656D;
+    border: 1px solid #FF656D;
+}
+.updateinfos{
+  text-align: center;
+  margin: auto;
+  height: auto;
+  margin-top: 14%;
+}

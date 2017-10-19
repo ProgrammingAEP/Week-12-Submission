@@ -1,0 +1,227 @@
+html, body{
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+.intro{
+  height: 100%;
+  width: 100%;
+  background:url(../img/date.jpg);
+  margin: auto;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro1{
+  height: 35%;
+  width: 100%;
+  display: table;
+}
+.intro2{
+  height: 50%;
+  width: 100%;
+  display: table;
+  background-color:#FF3A44;
+}
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.intro1 .inner1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.intro2 .inner2{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.content{
+  max-width:500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content5{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro5{
+  height: 100%;
+  width: 100%;
+  background: url(img/rego.jpg);
+  margin: auto;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro5 .inner5{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content1{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content2{
+  max-width: 100%;
+  margin:0 auto;
+  text-align: center;
+}
+.content h1{
+  font-family: 'Raleway', sans-serif;
+  color:#FF3A44;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 370%;
+}
+.content1 h1{
+  font-family: 'Lobster', cursive;
+  color: #FF3A44;
+  font-size: 200%;
+}
+.content2 h1{
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 200%;
+}
+.test {
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+  color: #FF3A44;
+  font-size: 135%;
+  padding:10px 20px;
+  border: 2px solid #FF3A44;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.test:hover{
+  background-color:#FF3A44;
+  color: white;
+  -webkit-transition: 1s;
+  font-weight: bold;
+}
+.nav{
+  width: 100%;
+  text-align: center;
+  display: table-row;
+  font-family: 'Roboto', sans-serif;
+  height: 5%;
+  background-color: #FF3A44;
+  color: white;
+  opacity: 0.8
+}
+.nav li{
+  display: inline-block;
+  text-decoration: none;
+}
+.nav a{
+  display: block;
+  padding:25px 25px 25px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.content5 table{
+  margin: auto;
+  font-family: 'Lobster', cursive;
+  color: #FF3A44;
+  border-radius: 8px;
+  width: 40%;
+}
+.inputText{
+  color: white;
+  border-radius: 8px;
+  border: 4px solid #FF3A44;
+  width: 60%;
+  height: 50px;
+  font-size: 20px;
+}
+.inputText:focus{
+  color: #FF3A44;
+  background-color: white;
+  border: 3px solid #FF3A44;
+}
+.inputTextdob{
+  background-color:#FF3A44;
+  color: white;
+  border-radius: 8px;
+  border: 3px solid white;
+  width: 20%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.submitbtn{
+ background-color: #FF3A44;
+ color: white;
+ font-family: 'Lobster', cursive;
+ border-radius: 8px;
+ padding: 10px 20px;
+ border: 3px solid white;
+ cursor: pointer;
+ width: 5%;
+ -webkit-transition: width 1s;
+}
+.submitbtn:hover{
+width: 15%;
+color: #FF3A44;
+background-color: white;
+border: 3px solid #FF3A44;
+}
+.person{
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  border: 4px solid white;
+ margin-top: 2%;
+}
+.container1{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: white;
+  background-color: #FF6560;
+}
+.middle1{
+  font-size: 23px;
+}
+.container2{
+  float: left;
+  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #FF9398;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  margin-right: 50%;
+}
+.middleempty{
+  width: 90%;
+  background-color: white;
+  height: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top-right-radius:2px;
+  border-top-left-radius:2px;
+}
+.middle2{
+  text-align: left;
+  margin-left: 5%;
+}

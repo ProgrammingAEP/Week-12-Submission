@@ -1,0 +1,112 @@
+/*profile page css*/
+
+html, body
+{
+  width:100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+body{
+  text-align: center;
+}
+table{
+  margin:auto;
+  text-align: center;
+  width: 80%;
+  color: #FF3A44;
+  font-family: 'Roboto', sans-serif;
+}
+table th{
+  text-align: center;
+  color: black;
+  background: #FFCFD1;  
+  padding: 5px;    
+}
+
+textarea{
+  resize: none;
+}
+
+.imageupload input, .button{
+  background-color: #FF3A44;
+  color: white;
+  border-radius: 5px;
+  border:2px solid white;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit]:hover{
+    background: #FF3A44;
+    border: 1px solid #FF3A44;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit]{
+    width: 100px;
+    height: 40px;
+    background: #FF656D;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #FF656D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    cursor: pointer;
+} 
+
+.userdesc{
+  color: #FF3A44;
+  font-family: 'Roboto',sans-serif;,
+}
+.aboutme{
+  width: 80%;
+  margin:auto;
+  padding: 5px 0px 0px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px;
+}
+.middleline{
+  background-color: #FF3A44;
+  width: 30%;
+  margin:auto;
+  height: 5px;
+}
+.content
+{
+  max-width:500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.person
+{
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  border: 4px solid #FF3A44;
+  margin-top: 2%;
+}
+
+.container1
+{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  color: white;
+}
+
+.table{
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  display: table;
+  @media screen and (max-width: 580px);
+}
+
+input[type=file]{
+    color: #FF3A44;
+}

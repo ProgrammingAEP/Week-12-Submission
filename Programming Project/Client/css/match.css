@@ -1,0 +1,36 @@
+table{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 30%;
+    margin: auto;
+}
+table th{
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+}
+table td{
+  padding: 20px 25px 20px 25px;
+}
+
+tr:nth-child(even){background-color: #ddd}
+
+html{
+  text-align: center;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+body h1{
+  font-family:'Lobster', cursive;
+  color: #FF3A44;
+}
+body h2{
+  font-family: 'Lobster', cursive;
+  color: #FF3A44;
+}
+.profiletest{
+  text-decoration: none;
+  font-weight: bold;
+  color: #FF3A44;
+}
